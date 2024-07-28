@@ -4,7 +4,7 @@ import os
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 API_ID = int(os.environ.get("API_ID", "27390437"))
 API_HASH = os.environ.get("API_HASH", "8dcef0252047d3a4556ad80280db4146")
-OWNER = int(os.environ.get("OWNER", "7162615398"))
+OWNER = int(os.environ.get("OWNER", "6727550037"))
 BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
 
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "Straw_Hat_Bots")
