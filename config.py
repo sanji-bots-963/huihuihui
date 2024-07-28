@@ -2,13 +2,13 @@ import os
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER = int(os.environ.get("OWNER", ""))
+API_ID = int(os.environ.get("API_ID", "27390437"))
+API_HASH = os.environ.get("API_HASH", "8dcef0252047d3a4556ad80280db4146")
+OWNER = int(os.environ.get("OWNER", "7162615398"))
 BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
 
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "Straw_Hat_Bots")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002031978775"))
 
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://sagatobots00001:sagatobots100@cluster00001.vgdshkw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster00001")
 DB_NAME = os.environ.get("DB_NAME", "")
